@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #d0e9f7, #ffffff);
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #003366;
+      margin-bottom: 25px;
+      font-size: 26px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      background-color: #004080;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+<form action="bal" method="post">
+Enter AccountNumber:<br><input type="text" name="accno"><br>
+<input type="submit" value="CheckBalance">
+</form>
+</body>
+</html>
